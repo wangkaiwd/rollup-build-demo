@@ -1,0 +1,23 @@
+{
+  "name": "rollup-build-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangkaiwd/rollup-build-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangkaiwd/rollup-build-demo/issues"
+  },
+  "homepage": "https://github.com/wangkaiwd/rollup-build-demo#readme",
+  "devDependencies": {
+    "rollup": "^2.60.2"
+  }
+}

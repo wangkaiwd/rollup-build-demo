@@ -1,5 +1,4 @@
 import resolve from '@rollup/plugin-node-resolve';
-import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 
@@ -21,5 +20,5 @@ export default {
     }
   ],
   // https://github.com/rollup/plugins/tree/master/packages/babel#babelhelpers
-  plugins: [resolve(), commonjs(), babel({ babelHelpers: 'bundled' }), typescript({ useTsconfigDeclarationDir: true })]
+  plugins: [resolve(), commonjs(), typescript({ useTsconfigDeclarationDir: true })]
 };

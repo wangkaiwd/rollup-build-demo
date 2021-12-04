@@ -5,6 +5,7 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.es.js",
   "types": "dist/types/index.d.ts",
+  "browser": "dist/bundle.iife.js",
   "scripts": {
     "build": "rollup --config rollup.config.ts"
   },
@@ -20,9 +21,6 @@
   },
   "homepage": "https://github.com/wangkaiwd/rollup-build-demo#readme",
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "rollup": "^2.60.2",

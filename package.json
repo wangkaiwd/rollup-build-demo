@@ -2,7 +2,8 @@
   "name": "rollup-build-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.es.js",
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },

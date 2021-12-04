@@ -1,9 +1,10 @@
 {
-  "name": "rollup-build-demo",
+  "name": "ts-usage",
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.es.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "rollup --config rollup.config.ts"
   },

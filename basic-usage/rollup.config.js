@@ -9,6 +9,11 @@ export default {
       format: 'es'
     },
     {
+      file: 'dist/bundle.umd.js',
+      name: 'name',
+      format: 'umd'
+    },
+    {
       file: 'dist/bundle.cjs.js',
       format: 'cjs'
     },

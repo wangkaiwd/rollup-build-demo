@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 
 export default {
   input: 'lib/index.js',
+  external: ['lodash/isPlainObject'],
   output: [
     {
       file: 'dist/bundle.es.js',
@@ -16,6 +17,9 @@ export default {
     {
       file: 'dist/bundle.iife.js',
       name: 'bundle',
+      globals: {
+        'lodash/isPlainObject': 'isPlainObject'
+      },
       format: 'iife'
     }
   ],

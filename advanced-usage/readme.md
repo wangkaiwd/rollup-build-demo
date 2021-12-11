@@ -7,6 +7,7 @@
 how to tree shaking for lodash ?
 
 ### external third party
+* [external](https://rollupjs.org/guide/en/#external)
 
 ### import third party by script cdn
 

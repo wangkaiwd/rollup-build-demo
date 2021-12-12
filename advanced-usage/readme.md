@@ -7,8 +7,17 @@
 how to tree shaking for lodash ?
 
 ### external third party
+
 * [external](https://rollupjs.org/guide/en/#external)
+* [output.globals](https://rollupjs.org/guide/en/#outputglobals)
 
-### import third party by script cdn
+#### notice
 
-* todo ?
+need import externals library by yourself and global variable name must equal with output.globals when use script src(
+cdn) import library
+
+### support css file
+
+* [rollup-plugin-postcss](https://github.com/egoist/rollup-plugin-postcss)
+
+### minify source code
